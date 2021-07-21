@@ -7,8 +7,8 @@ const vuetifyPresets = {
   theme:{
     themes: {
       light: {
-        primary: '#990000',
-        secondary: '#5CBBF6',
+        primary: '#610378',
+        secondary: '#76FF00',
         tertiary: '#E57373',
         accent: '#005CAF',
         error: '#FF5252',

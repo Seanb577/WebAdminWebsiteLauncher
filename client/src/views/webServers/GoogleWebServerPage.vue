@@ -117,6 +117,16 @@
                     </v-row>
                   </v-card-text>
                 </v-card>
+                <v-card class="elevation-0">
+                  <v-card-title class="justify-center elevation-0">  
+                    <v-rating
+                      v-model="rating"
+                      background-color="purple lighten-3"
+                      color="purple"
+                      large
+                    />
+                  </v-card-title>
+                </v-card>
               </v-col>
             </v-row>
           </v-container>
@@ -132,6 +142,7 @@ import Vue from "vue";
 export default Vue.extend({
   data() {
     return {
+      rating: 5,
       headers: [
         {
           text: "App Engine",

@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-card class="mb-16">
-      <v-app-bar app hide-on-scroll color="transparent" flat tile>
+      <v-app-bar app hide-on-scroll color="white" flat tile>
         <v-toolbar-title>
           <span class="font-weight-bold text-h4 grey--text text--darken-3"
             >Web
@@ -63,28 +63,43 @@
         </v-btn-toggle>
       </v-app-bar>
     </v-card>
-    <v-main>
-      <router-view />
-    </v-main>
-    <v-footer class="mt-16" dark padless>
-      <v-card flat tile class="indigo lighten-1 white--text text-center">
+    <v-row>
+      <v-col cols="11">
+        <v-main>
+          <router-view/>
+        </v-main>
+      </v-col>
+      <v-col>
+        <bubble-chat
+          :messages="messagesList"
+          :text-field="'message'"
+          :sender-name-field="'username'"
+          :avatar-link-field="'iconUrl'"
+        />
+      </v-col>
+    </v-row>
+    
+    <v-footer class="mt-16 pt-5" dark padless>
+    
+      <v-card flat tile class="grey darken-4 white--text text-center">
 
         <v-card-text class="white--text pt-0">
-          This Website was created 
-          Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.
-          Mauris cursus commodo interdum. Praesent ut risus eget metus luctus
-          accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim
-          a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula
-          lacinia malesuada. Nulla placerat augue vel ipsum ultrices, cursus
-          iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum
-          tempor vel ut orci. Orci varius natoque penatibus et magnis dis
-          parturient montes, nascetur ridiculus mus.
+          Established in early 2021, The Interior seeks to bring light to 
+          revolutionary development in the technology sector. With transparency
+          and enthusiasm for content, we bring the news about current happenings,
+          on time and at your fingertips. Join us on this journey; DIVE into technology.
+          The interior.
         </v-card-text>
 
         <v-divider></v-divider>
 
         <v-card-text class="white--text">
-          {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+          <span class="mr-5">
+            <strong> Made with: </strong>{{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+          </span>
+          <span>
+            <strong> Powered by: </strong>{{ new Date().getFullYear() }} — <strong>Vuejs</strong>
+          </span>
         </v-card-text>
       </v-card>
     </v-footer>
@@ -92,12 +107,24 @@
 </template>
 
 <script>
+
 export default {
   name: "App",
+  
+  components: {
+  },
 
   data: () => ({
-    //
+    chatPosition: 'right',
+     messagesList: [
+      {
+          username: 'John Doe',
+          message: 'Have a question? We can answer it.',
+      }
+     ]
   }),
+
+ 
 };
 </script>
 
