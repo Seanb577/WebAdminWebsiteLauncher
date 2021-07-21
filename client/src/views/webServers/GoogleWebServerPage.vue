@@ -7,7 +7,7 @@
             <v-row>
               <v-col>
                 <v-card class="pa-2" outlined tile>
-                  <v-card-title class="text-h4">Google Web Server (GWS)</v-card-title>
+                  <v-card-title class="text-h4">What does Google Web Server (GWS) offer.</v-card-title>
                   <v-card-subtitle class="pt-2"
                     >By: Sheldon Wilton | last updated:
                     7/14/2021</v-card-subtitle
@@ -105,12 +105,10 @@
                               <v-list-item-icon>
                                 <v-icon class="pt-5">mdi-chevron-right</v-icon>
                               </v-list-item-icon>
-                              <v-list-item-content>
-                                <v-list-item-content 
-                                class="text-subtitle-1 text--primary"
-                                :key="index">
-                                  {{programmingLanguage }}
-                                </v-list-item-content>
+                              <v-list-item-content 
+                              class="text-subtitle-1 text--primary"
+                              :key="index">
+                                {{programmingLanguage }}
                               </v-list-item-content>
                             </v-list-item>
                           </v-list>

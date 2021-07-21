@@ -7,7 +7,7 @@
             <v-row>
               <v-col>
                 <v-card class="pa-2" outlined tile>
-                  <v-card-title class="text-h4">FileZilla FTP Server</v-card-title>
+                  <v-card-title class="text-h4 font-weight-bold">FileZilla FTP Server, is it the right fit for you?</v-card-title>
                   <v-card-subtitle class="pt-2"
                     >By: John-paul Panton | last updated:
                     7/16/2021</v-card-subtitle
@@ -19,7 +19,7 @@
                         <v-img
                           lazy-src="https://picsum.photos/id/11/10/6"
                           aspect-ratio="2"
-                          src=""
+                          src="https://lh3.googleusercontent.com/Y0aZzgV3r-W5aQgTf1S5tuKqTq9JaZnW-GkZITEpxuFojA5tq_ikBExZnVXYDvf4BKNwUL42zX8vEt0UcggIau9dxMG5znVOaeDubfGCDGzzGV9MpSIWt8XqAhSbf0Dmv4Mnyo1DAA=w2400"
                         />
                       </v-col>
                     </v-row>
@@ -80,16 +80,13 @@
                             <v-list-item
                               dense
                             >
-                              <v-list-item-content>
-                                <v-list-item-content
-                                  class="text-subtitle-1 text--primary"
-                                  :key="index"
-                                >
-                                  FileZilla is a free FTP Server. It is a fast and 
-                                  reliable cross-platform client that supports FTP, FTPS, 
-                                  and SFTP. It has an intuitive graphical user interface 
-                                  and hence becomes easy to use. It supports multiple languages.
-                                </v-list-item-content>
+                              <v-list-item-content
+                                class="text-subtitle-1 text--primary"
+                              >
+                                FileZilla is a free FTP Server. It is a fast and 
+                                reliable cross-platform client that supports FTP, FTPS, 
+                                and SFTP. It has an intuitive graphical user interface 
+                                and hence becomes easy to use. It supports multiple languages.
                               </v-list-item-content>
                             </v-list-item>
                           </v-list>

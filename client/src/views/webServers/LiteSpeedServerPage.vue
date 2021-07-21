@@ -7,7 +7,7 @@
             <v-row>
               <v-col>
                 <v-card class="pa-2" outlined tile>
-                  <v-card-title class="text-h4">Litespeed server</v-card-title>
+                  <v-card-title class="text-h4 font-weight-bold" style="word-break: break-word">LiteSpeed Web Server, for all your web hosting needs.</v-card-title>
                   <v-card-subtitle class="pt-2"
                     >By: Sheldon Wilton | last updated:
                     7/14/2021</v-card-subtitle

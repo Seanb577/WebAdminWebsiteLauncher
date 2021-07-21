@@ -7,7 +7,7 @@
             <v-row>
               <v-col>
                 <v-card class="pa-2" outlined tile>
-                  <v-card-title class="text-h4">WP Farm server</v-card-title>
+                  <v-card-title class="text-h4">Everthing you need to know about WP Farm server.</v-card-title>
                   <v-card-subtitle class="pt-2"
                     >By: John-paul Panton | last updated:
                     7/16/2021</v-card-subtitle
@@ -18,8 +18,8 @@
                       <v-col>
                         <v-img
                           lazy-src="https://picsum.photos/id/11/10/6"
-                          aspect-ratio="2"
-                          src=""
+                          aspect-ratio="1.5"
+                          src="https://lh3.googleusercontent.com/MvdxWdpS9bbXf6xMhzEJiIaLBSZ2Cvra631XqtCK4EldTzUrEmUt8kRVp-Y766GbsVozTm-Fa7pAdIYQnlS2XnENJE8TP0liv91gdXJpFA9e5FNLJJjINyN_wC6-RWRVTis--Xf0Ww=w2400"
                         />
                       </v-col>
                     </v-row>

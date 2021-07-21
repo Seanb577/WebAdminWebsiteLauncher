@@ -7,7 +7,7 @@
             <v-row>
               <v-col>
                 <v-card class="pa-2" outlined tile>
-                  <v-card-title class="text-h4">Cerberus FTP Server </v-card-title>
+                  <v-card-title class="text-h4 font-weight-bold">What can Cerberus FTP Server offer you?</v-card-title>
                   <v-card-subtitle class="pt-2"
                     >By: John-paul Panton | last updated:
                     7/17/2021</v-card-subtitle
@@ -19,7 +19,7 @@
                         <v-img
                           lazy-src="https://picsum.photos/id/11/10/6"
                           aspect-ratio="2"
-                          src=""
+                          src="https://lh3.googleusercontent.com/TmhAtOfqMgOinB9SN-wKgbVCaxMBT2JGVa2aGKEnnnoAROkEIKRz9NcqejPRzZGXPZmazRbRFFJD4AYE4sHZTsSFVIuCyHIMl7mqpkTq8mIVTQHlc2ws1d9L4MI3-ljk0hGWILQauA=w2400"
                         />
                       </v-col>
                     </v-row>
@@ -138,6 +138,84 @@ export default Vue.extend({
         {
           feature: "It offers the features of two-factor authentication, secure SSL encryption, IP auto-banning, and active directory & LDAP.",
         },
+
+
+        {
+          feature: "Small installation size",
+        },
+        {
+          feature: "Low CPU and memory usage",
+        },
+        {
+          feature: "Easy to use interface",
+        },
+        {
+          feature: "Access and administration of web services",
+        },
+        {
+          feature: "NT nativve service support",
+        },
+        {
+          feature: "Taskbar icon control and status indicator",
+        },
+        {
+          feature: "Hidden Server mode (Hides server Window)",
+        },
+        {
+          feature: "Transfer and connection statistics",
+        },
+        {
+          feature: "Connections limit and timeout controls",
+        },
+        {
+          feature: "Taskbar icon control and status indicator",
+        },
+        {
+          feature: "User and Group Support with per User Virtual Directories",
+        },
+        {
+          feature: "UTF-8 - Display filenames in foreign languages with their native charset",
+        },
+        {
+          feature: "Force Secure Client-Server Connections",
+        },
+        {
+          feature: "Fine-Grained Directory Access Restrictions",
+        },
+        {
+          feature: "IP Manager to automatically block malicios connection attempts",
+        },
+        {
+          feature: "FIPS 140-2 Validated Cryptography",
+        },
+        {
+          feature: "Secure SSL / TLS Encryption",
+        },
+        {
+          feature: "RFC1579-Firewall -Friendly FTP",
+        },
+        {
+          feature: "Adherence to RFC959 and RFC1123",
+        },
+        {
+          feature: "Thread priority control",
+        },
+        {
+          feature: "Transfer and connection statistics",
+        },
+        {
+          feature: "Limit and timeout controls",
+        },
+        {
+          feature: "Easy-to-use manager to control user access to files and file operations",
+        },
+        {
+          feature: "Control over most aspects of server configuration",
+        },
+        {
+          feature: "Resume failed transfers!",
+        },
+
       ],
     };
   },

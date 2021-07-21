@@ -15,11 +15,11 @@
                   <v-divider class="pt-2" />
                   <v-card-text>
                     <v-row>
-                      <v-col>
+                      <v-col class="pa-6 my-10">
                         <v-img
                           lazy-src="https://picsum.photos/id/11/10/6"
-                          aspect-ratio="2"
-                          src=""
+                          aspect-ratio="3.4"
+                          src="https://lh3.googleusercontent.com/-DxNChkkbbNOHMPC6i9oSjZOwamXyeaAzulGdOf_ZQfGfJsQZDPKzlFo09spgxB5gvG827u1xFAKOazd4GKVsRvBjKaX_4wWAjaZlSMK2SV29lYvlAOVDwexUrn8xoA3vAon7D8XcQ=w2400"
                         />
                       </v-col>
                     </v-row>
@@ -85,21 +85,18 @@
                             <v-list-item
                               dense
                             >
-                              <v-list-item-content>
-                                <v-list-item-content
-                                  class="text-subtitle-1 text--primary"
-                                  :key="index"
-                                >
-                                   JSCAPE is one of the popular providers of 
-                                   the secure File Transfer Protocol server, managed 
-                                   file transfer, and AS2 Server software. It offers 
-                                   solutions for securing and managing file transfers 
-                                   through a lot of users and multiple OS and file 
-                                   transfer protocols. Various industry verticals such 
-                                   as healthcare, finance, banking, logistics, government, 
-                                   etc. use JSCAPE.
-                                </v-list-item-content>
-                              </v-list-item-content>
+                            <v-list-item-content
+                              class="text-subtitle-1 text--primary"
+                            >
+                                JSCAPE is one of the popular providers of 
+                                the secure File Transfer Protocol server, managed 
+                                file transfer, and AS2 Server software. It offers 
+                                solutions for securing and managing file transfers 
+                                through a lot of users and multiple OS and file 
+                                transfer protocols. Various industry verticals such 
+                                as healthcare, finance, banking, logistics, government, 
+                                etc. use JSCAPE.
+                            </v-list-item-content>
                             </v-list-item>
                           </v-list>
                         </v-card>
