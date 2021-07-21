@@ -1,12 +1,12 @@
 <template>
   <v-app>
-    <v-card class="mb-16">
-      <v-app-bar app hide-on-scroll color="white" flat tile>
+    <v-card class="mb-16 ">
+      <v-app-bar app hide-on-scroll color="transparent" flat tile>
         <v-toolbar-title>
           <span class="font-weight-bold text-h4 grey--text text--darken-3"
-            >Web
+            >The
           </span>
-          <span class="font-weight-light text-h4">Admin</span>
+          <span class="font-weight-light text-h4">Interior</span>
         </v-toolbar-title>
 
         <v-spacer />
@@ -119,7 +119,7 @@ export default {
      messagesList: [
       {
           username: 'John Doe',
-          message: 'Have a question? We can answer it.',
+          message: 'Welcome! Have a question? We can answer it.',
       }
      ]
   }),
