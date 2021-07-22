@@ -18,6 +18,11 @@
                 </v-card-title>
                 <v-card-subtitle :class="hover ? 'red--text' : 'white--text'" class="text-h5 font-weight-bold py-7 grey darken-4 white--text">
                   LiteSpeed Web Server for all your web hosting needs.
+                  <v-rating
+                    v-model="rating"
+                    background-color="purple lighten-3"
+                    color="purple"
+                  />
                 </v-card-subtitle>
               </v-card>
             </v-hover> 
@@ -39,6 +44,11 @@
                 </v-card-title>
                 <v-card-subtitle :class="hover ? 'red--text' : 'white--text'" class="text-body-1 font-weight-bold py-7 grey darken-4">
                   {{ post.headline }}
+                  <v-rating
+                    v-model="post.rating"
+                    background-color="purple lighten-3"
+                    color="purple"
+                  />
                 </v-card-subtitle>
               </v-card>
             </v-hover>
@@ -76,24 +86,28 @@
     
     data() {
       return {
+        rating: 4,
         articles: [
           [
             {
               headline:"LiteSpeed Web Server for all your web hosting needs.",
               img:"https://lh3.googleusercontent.com/tllUG3fMQUJV_6ttMGhGeroHPH1mbv2it7Th64AKNHfBs3Ci1Tprqu50cdLlooPPwBhbLGJKSUWKo_Dxk6vlKhU0gwIboFEshxaKGKngmSqIUvirn0fbHozkylLcqig45gts4keCyg=w2400",
-              link: "LiteSpeedServer"
+              link: "LiteSpeedServer",
+              rating: 4
             },
             {
               headline:"What does Google Web Server (GWS) offer.",
               img:"https://lh3.googleusercontent.com/JpmKTr2pO2EhGCB3RfTx5n0SR1iFotA7ICWThtln5ztygsGMLQNxtV8YH0aIF1odPb_uHPAmWM_lqqF0fk1C_ZjnQ45_-IZAfVSuY8oUmGtFq41CC6LehFvcNV9Tg9HpbnSxXhBZRg=w2400",
-              link: "GoogleWebServer"
+              link: "GoogleWebServer",
+              rating: 5
             }
           ],
           [
             {
               headline:"Everthing you need to know about WP Farm server.",
               img:"https://lh3.googleusercontent.com/MvdxWdpS9bbXf6xMhzEJiIaLBSZ2Cvra631XqtCK4EldTzUrEmUt8kRVp-Y766GbsVozTm-Fa7pAdIYQnlS2XnENJE8TP0liv91gdXJpFA9e5FNLJJjINyN_wC6-RWRVTis--Xf0Ww=w2400",
-              link: "WpFarmServer"
+              link: "WpFarmServer",
+              rating: 4
             },
             {
             }
