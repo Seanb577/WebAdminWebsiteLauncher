@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-card class="mb-16 ">
-      <v-app-bar app hide-on-scroll color="transparent" flat tile>
+      <v-app-bar dense app hide-on-scroll color="transparent" flat tile>
         <v-toolbar-title>
           <span class="font-weight-bold text-h4 grey--text text--darken-3"
             >The
@@ -122,7 +122,7 @@ export default {
     chatPosition: 'right',
      messagesList: [
       {
-          username: 'John Doe',
+          username: 'Ceejay',
           message: 'Welcome! Have a question? We can answer it.',
       }
      ]
