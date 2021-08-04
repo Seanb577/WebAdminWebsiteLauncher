@@ -8,6 +8,7 @@ import WpFarmServerPage from '../views/webServers/WpFarmServerPage.vue'
 import CerberusPage from '../views/ftpServers/CerberusFtpServerPage.vue'
 import FilezillaPage from '../views/ftpServers/FilezillaFtpServerPage.vue'
 import JscapePage from '../views/ftpServers/JscapeFtpServerPage.vue'
+import ContactPage from '../views/Contact.vue'
 
 Vue.use(VueRouter)
 
@@ -51,6 +52,11 @@ const routes = [
     path: '/webServers/JSCAPE',
     name: 'JscapePage',
     component: JscapePage
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: ContactPage
   }
 ]
 

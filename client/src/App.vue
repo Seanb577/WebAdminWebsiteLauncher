@@ -60,6 +60,10 @@
               </v-list-item>
             </v-list>
           </v-menu>
+          
+          <v-btn shaped large text :to="{ name: 'Contact' }" exact>
+            Contact
+          </v-btn>
         </v-btn-toggle>
       </v-app-bar>
     </v-card>
